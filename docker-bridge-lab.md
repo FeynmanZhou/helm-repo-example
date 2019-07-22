@@ -15,7 +15,7 @@ Before getting started with the step-by-step guide, suggest you to get familiar 
 - Veth Pair
 - External Communication
 
-![](https://pek3b.qingstor.com/kubesphere-docs/png/20190722121411.png)
+![](https://pek3b.qingstor.com/kubesphere-docs/png/20190723005011.png)
 
 ## Prerequisites
 
