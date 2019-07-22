@@ -1,11 +1,6 @@
-# test-repo
+# helm-repo-example
 
 test
 
-1st commit.
 
-2nd commit.
-
-3rd commit.
-
-4th commit.
+[![asciicast](https://asciinema.org/a/k87y98eMvBhS09qWckXCC0rZy.svg)](https://asciinema.org/a/k87y98eMvBhS09qWckXCC0rZy)
