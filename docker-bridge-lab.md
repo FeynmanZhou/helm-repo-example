@@ -10,12 +10,12 @@ In this tutorial, you'll create virtual Ethernet devices, they come in pairs, a 
 
 Before getting started with the step-by-step guide, suggest you to get familiar with these four important concepts about bridged networking, [this document](https://github.com/xiaopeng163/docker-k8s-lab/blob/master/docs/source/docker/bridged-network.rst) elaborates on the basic concepts.
 
-- Docker0 Bridge
+- Br0 (Linux), Docker0 Bridge(Docker)
 - Network Namespace
 - Veth Pair
 - External Communication
 
-![](https://pek3b.qingstor.com/kubesphere-docs/png/20190723005011.png)
+![](https://pek3b.qingstor.com/kubesphere-docs/png/20190723163848.png)
 
 ## Prerequisites
 
