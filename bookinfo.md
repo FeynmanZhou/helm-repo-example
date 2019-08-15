@@ -2,7 +2,7 @@
 
 灰度发布，是指在黑与白之间能够平滑过渡的一种发布方式。通俗来说，即让产品的迭代能够按照不同的灰度策略对新版本进行线上环境的测试，灰度发布可以保证整体系统的稳定，在初始灰度的时候就可以对新版本进行测试、发现和调整问题。
 
-[KubeSphere](https://github.com/kubesphere/kubesphere) 基于 Istio 提供了蓝绿部署、金丝雀发布、流量镜像等三种灰度策略，无需修改应用的业务代码，即可实现灰度、流量治理、Tracing、流量监控、调用链等服务治理功能。本文使用 Istio 官方提供的 Bookinfo 微服务示例，基于 KubeSphere 快速创建一个微服务应用并对其中的服务组件进行灰度发布。
+[KubeSphere](https://github.com/kubesphere/kubesphere) 基于 Istio 提供了蓝绿部署、金丝雀发布、流量镜像等三种灰度策略，无需修改应用的业务代码，即可实现灰度、流量治理、Tracing、流量监控、调用链等服务治理功能。本文使用 Istio 官方提供的 Bookinfo 微服务示例，基于 KubeSphere 快速创建一个微服务应用并对其中的服务组件进行灰度发布与熔断。
 
 > KubeSphere 是一个基于 Kubernetes 构建的**开源的企业级容器管理平台**，源代码和安装使用文档已在 GitHub 上开放：`https://github.com/kubesphere/kubesphere`
 
@@ -212,6 +212,16 @@ cluster.outbound|9080|v1|ratings.demo-namespace.svc.cluster.local.upstream_rq_pe
 ## 总结
 
 本文先简单介绍了微服务示例应用 Bookinfo 的架构，然后使用 KubeSphere 容器平台通过 Step-by-Step Guide 说明了灰度发布、流量治理与熔断的操作。微服务治理与监控是微服务管控中非常重要的一环，而 Service Mesh 作为下一代微服务技术的代名词，KubeSphere 基于 Istio 提供了更简单易用的 Service Mesh 可视化与治理功能。KubeSphere 还在持续迭代和快速发展，欢迎大家在 GitHub 关注和下载试用。 
+
+
+## 参考
+
+
+1. KubeSphere GitHub：*https://github.com/kubesphere/kubesphere*
+2. 在 k8s 集群部署 KubeSphere：*https://mp.weixin.qq.com/s/FcCBXs-f_VsNPp9qdMDfNQ*
+3. Bookinfo 微服务的灰度发布示例：*https://kubesphere.io/docs/advanced-v2.0/zh-CN/quick-start/bookinfo-canary/*
+
+
 
 
 
